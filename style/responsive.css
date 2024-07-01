@@ -1,0 +1,6 @@
+/* responsive for small device */
+@media screen and (max-width: 660px) {
+    .testimonial_content {
+        flex-direction: column;
+    }
+} 

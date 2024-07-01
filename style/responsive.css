@@ -2,5 +2,16 @@
 @media screen and (max-width: 660px) {
     .testimonial_content {
         flex-direction: column;
+        align-items: center;
+    }
+    .item_one, 
+    .item_two {
+        width: 100%;
+    }
+    .google{
+        align-items: end;
+    }
+    .meta{
+       justify-content: start; 
     }
 } 

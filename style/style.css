@@ -18,6 +18,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     height: 100vh;
+    padding: 20px;
 }
 p, li {
     color: #716c6c;
@@ -25,7 +26,7 @@ p, li {
 }
 .testimonial_content{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     gap: 50px;
 }
@@ -42,8 +43,8 @@ p, li {
     width: 30px;
     height: 30px;
 }
-.item_one{
-    flex-basis: 50%;
+.item_one ,.item_two {
+    width: 50%;
 }
 .item_one h1{
     font-size: 36px;
@@ -59,38 +60,35 @@ p, li {
     list-style-image: url(/image/Done_ringi.svg);
     list-style-position: inside;
 }
-.item_two{
-    flex-basis: 50%;
-    position: relative;
-}
-.item_two .box {
+.box {
     width: 360px;
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     margin: 0 0 40px 0;
-    position: absolute;
+    box-shadow:  1px 6px 29px -4px rgba(0,0,0,0.10);
 }
-.item_two .star_wrapper {
+.star_wrapper {
     display: flex;
     gap: 20px;
 }
-.item_two .box .testimonial_img{
+.testimonial_img{
     width: 88px;
 }
-.item_two .box .testimonial_img img {
+.testimonial_img img {
     width: 100%;
 }
-.item_two .box h3{
+.box h3{
     margin: 15px 0;
 }
-.item_tow .box p{
+.box p{
     font-size: 18px;
 }
 .google{
-    top: -250px;
-    right: 0;
+    display: flex;
+    justify-content: end;
 }
 .meta{
-    left: 0;
+    display: flex;
+    justify-content: start;
 }

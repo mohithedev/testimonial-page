@@ -57,7 +57,7 @@ p, li {
 .item_one ul li{
     font-size: 18px;
     margin: 0 0 20px 0;
-    list-style-image: url(/image/Done_ringi.svg);
+    list-style-image: url(../image/Done_ringi.svg);
     list-style-position: inside;
 }
 .box {
